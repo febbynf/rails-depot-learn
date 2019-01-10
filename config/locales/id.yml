@@ -1,0 +1,54 @@
+id:
+  
+  layouts:
+    application:
+      title: "Toko Buku Pragmatic"
+      home: "Beranda"
+      questions: "Pertanyaan"
+      news: "Berita"
+      contact: "Kontak"
+
+  store:
+    index:
+      title_html: "Pragmatic Katalog"
+      add_html: "Masukan Keranjang"
+
+  carts:
+    cart:
+      title: "Keranjang"
+      empty: "Keranjang Kosong"
+      checkout: "Checkout"
+
+  number:
+    currency:
+    format:
+      unit:      "Rp"
+      precision: 3
+      separator: "."
+      delimiter: ","
+      format:   "%u&nbsp;%n"
+
+  orders:
+    new:
+      legend: "Isi Detail Data Diri"
+    form:
+      name: "Nama"
+      address_html: "Alamat"
+      email: "E-mail"
+      pay_type: "Transaksi"
+      pay_prompt_html: "Pilih Tipe Pembayaran"
+      submit: "Oke"
+
+  thanks: "Terima Kasih Atas Pesanannya"
+
+  activerecord:
+    errors:
+      messages:
+        inclusion: "belum diisi"
+        blank: "harus diisi"
+  errors:
+    template: 
+      body: ""
+      header:
+        one: "1 error di %{model} belum tersimpan"
+        other: "%{count} error di %{model} belum tersimpan"
